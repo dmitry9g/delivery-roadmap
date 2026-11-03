@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delivery Roadmap"
+  short_description: "Plan, track, and advance evidence-based roadmaps"
+  default_prompt: "Use $delivery-roadmap to create or update the roadmap, assess next-step readiness, and continue work within existing authorization."
