@@ -12,6 +12,22 @@ Delivery Roadmap is a Codex skill for planning and tracking software delivery wi
 - Keeps effort forecasts separate from calendar forecasts, budgets, and recorded expenditure.
 - Continues an already authorized next step when its readiness conditions pass.
 
+## Recommended three-skill pack
+
+For work that needs planning, coordinated follow-through, and defect diagnosis, use **Delivery Roadmap + Continuation + Diagnosing Bugs** together:
+
+- **Delivery Roadmap** maintains one authoritative plan: outcomes, owners, dependencies, acceptance evidence, estimates, and next-step readiness.
+- **[Continuation](https://github.com/dmitry9g/continuation)** coordinates the next authorized action, handoffs, checkpoints, integration, and verification in the receiving environment.
+- **[Diagnosing Bugs](https://github.com/mattpocock/skills/tree/main/skills/engineering/diagnosing-bugs)**, by **Matt Pocock**, investigates actual failures with a reproducible feedback loop and verifies the repair against the original scenario.
+
+Start with Delivery to establish the outcome and roadmap. Use Continuation to move between ready steps and preserve context across handoffs or interruptions. When a genuine defect blocks progress, apply Diagnosing Bugs, attach the evidence to the same roadmap, and reassess readiness before continuing. Do not invent bugs just to exercise the pack.
+
+The skills remain separate and complementary. Use the same task IDs, owners, revisions, and evidence instead of creating competing plans. Verify that each skill is available and loaded in the environment doing the work. Installation alone is not proof of adoption or successful execution.
+
+This pack does not grant additional permissions, authorize spending or publication, or provide a scheduler. Existing scope, approvals, budgets, and stop instructions still apply.
+
+Diagnosing Bugs is an independent upstream project, not an original component of Delivery or Continuation. Obtain it from [Matt Pocock's original repository](https://github.com/mattpocock/skills); its [MIT license](https://github.com/mattpocock/skills/blob/main/LICENSE) and attribution remain applicable. It is linked here, not redistributed in this package.
+
 ## Package contents
 
 - `SKILL.md` — the skill instructions and invocation metadata.
@@ -42,3 +58,4 @@ The package is designed for Codex’s skill folder format. Other assistants may 
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
