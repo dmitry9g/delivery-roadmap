@@ -56,6 +56,18 @@ When execution is authorized and the progression conditions pass, record complet
 
 At interruption, leave the exact next action and restart prerequisites. This skill does not create a scheduler or background worker; claim unattended continuation only when an authorized execution mechanism exists.
 
+## Use an owner-approved repair reserve
+
+When a defect blocks an approved acceptance criterion, first check whether existing authority covers the repair. An optional repair reserve can make that authority explicit in the plan; this skill and an unapproved template grant none. Do not introduce a new approval gate for work already authorized, or invent a reserve for uncapped work.
+
+Keep the reserve in the authoritative roadmap, not a separate budget. Record the owner's approval reference, accountable coordinator, authorized ceiling and accounting units, expiry/deadline, covered acceptance criteria and repair activities, hard exclusions, commitments, actual charges and available balance. Distinguish expected affected files (a forecast) from hard edit boundaries (an authorization constraint). A newly discovered file alone does not require escalation unless it crosses an approved boundary.
+
+An explicitly approved clause may cover diagnosis, implementation, regression/original-scenario verification, required Review, integration and receiving handoff within its limits. Dispatch those covered actions without another generic acknowledgement, but reserve enough allowance for the whole repair cycle, including review and reporting. It does not authorize extra workers, recipients, paid calls, publication or other external actions unless separately covered by existing authority.
+
+Before dispatch, retry, resume or handoff, reconcile the current ledger and pending outcomes through its single coordinator or supported atomic reservation mechanism. Available balance is the authorized ceiling minus actual charges and still-open commitments in compatible units; do not subtract a settled commitment twice. For resumed work, reconcile and reuse its valid existing commitment; reserve only an uncovered increment rather than charging the same work twice. Reserve allowance before concurrent work, replace its commitment with actual charges on settlement, and release unused allowance only after verifying that the work is settled or cancelled. Unknown or pending charges are not zero or refundable capacity. If safe remaining capacity cannot be established, block spending from that reserve while continuing independent permitted work.
+
+Stop the affected repair and request the smallest necessary decision when the remaining allowance cannot cover its completion, the deadline would be exceeded, a hard exclusion would be crossed, or the goal/acceptance criteria would change. Preserve work and state; do not reset caps on retries, borrow another task's allowance, or reopen closed/frozen balances without owner authority. An explicit pause or stop takes precedence even when balance remains. A reserve never overrides restricted or denied actions, platform safeguards, or separately required action-time confirmations. Do not automatically retry a denied action.
+
 ## Keep estimates and time honest
 
 Preserve original estimates and their basis; update remaining forecasts separately. Label every estimate, including remaining estimates, with explicit active person-minutes/hours or elapsed minutes/hours. Use ranges and explain uncertainty. Keep expected effort (forecast), authorized maximum (cap) and recorded expenditure separate; a cap is not a forecast. Distinguish **measured active effort**, **elapsed duration** and **conservative accounting charge**. Unknown time remains unknown, not zero. An allocation or wall interval is not measured active effort. Include author, reviewer, coordinator and reporting effort when the budget covers them.
@@ -73,3 +85,4 @@ For material revisions, record **change → supporting evidence → reason → i
 Reassess downstream readiness when evidence or interfaces change. Reopen affected completion claims if acceptance evidence is invalidated. Routine corrections within authorized scope need no additional approval.
 
 After a completed step, material blocker or justified revision, show the full compact roadmap, recorded time and updated remaining effort/calendar forecast. Lead with what changed, the next executable action and any necessary decision. Link long evidence rather than copying logs. Keep reporting proportionate to the work and avoid repeated unchanged updates.
+
