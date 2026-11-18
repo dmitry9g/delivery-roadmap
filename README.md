@@ -28,6 +28,12 @@ This pack does not grant additional permissions, authorize spending or publicati
 
 Diagnosing Bugs is an independent upstream project, not an original component of Delivery or Continuation. Obtain it from [Matt Pocock's original repository](https://github.com/mattpocock/skills); its [MIT license](https://github.com/mattpocock/skills/blob/main/LICENSE) and attribution remain applicable. It is linked here, not redistributed in this package.
 
+## Optional repair reserve
+
+An owner-approved plan can include a bounded reserve for acceptance-blocking diagnosis, repair, verification, required review, integration and handoff. Delivery keeps its approval, scope, deadline, commitments, actual charges and remaining balance in the same roadmap. Reserve before parallel work and reconcile on resume; do not reuse frozen balances or treat unknown charges as free capacity. Expected files are a forecast, not a hard boundary unless the owner says so.
+
+The reserve removes unnecessary repeat acknowledgements for covered work, not permission checks: explicit stops, hard exclusions, restricted actions and separately required confirmations still apply. The skill and its template confer no authority themselves.
+
 ## Package contents
 
 - `SKILL.md` — the skill instructions and invocation metadata.
@@ -55,7 +61,12 @@ This skill organizes and advances work within existing authorization. A roadmap 
 
 The package is designed for Codex’s skill folder format. Other assistants may need adaptation.
 
+## Validation
+
+The repair-reserve update passed package/frontmatter, relative-reference, metadata and privacy checks, plus an independent 11-case tabletop review with Continuation covering allowance, expiry, concurrent commitments, scope boundaries, denial, pause, changed acceptance and uncertain/frozen balances. These are guidance-level checks, not runtime enforcement or proof of unattended reliability.
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
 
