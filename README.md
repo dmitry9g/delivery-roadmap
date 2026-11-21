@@ -55,6 +55,8 @@ The folder should contain `SKILL.md`, `agents/openai.yaml`, and `assets/roadmap-
 
 Ask Codex to create a delivery roadmap, update an existing one, report progress against it, replan based on new evidence, or advance an approved roadmap. Give it the relevant goal, acceptance criteria, constraints, owners, permissions, and any user-set budget or deadline. It will use the template for a new roadmap and preserve the existing source of truth where one already exists.
 
+If this skill helped you finish a task, give this repo a ⭐ on GitHub. It helps me see what’s worth improving.
+
 ## Limitations
 
 This skill organizes and advances work within existing authorization. A roadmap does not itself authorize implementation, extra workers, messages to other people, or external actions. It is not a scheduler or background worker and cannot promise unattended continuation. Its progress and estimates depend on available evidence and any time measurements the project provides; unmeasured effort remains unknown.
